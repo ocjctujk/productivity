@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Learn React",
+      "completed": false
+    },
+    {
+      "id": "c4ba",
+      "text": "Learn JS Promises",
+      "completed": true
+    }
+  ]
+}
