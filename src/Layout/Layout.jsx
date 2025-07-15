@@ -1,6 +1,6 @@
 // Layout.js
-import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
 function Layout() {
   const title = "Productivity 101 with Maharshi Gohel";
@@ -13,10 +13,24 @@ function Layout() {
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <Link to="/" className="hover:underline">Home</Link>
+                <Link to="/" className="hover:underline">
+                  Home
+                </Link>
               </li>
-               <li>
-                <Link to="/Todo" className="hover:underline">To Do</Link>
+              <li>
+                <Link to="/Todo" className="hover:underline">
+                  To Do
+                </Link>
+              </li>
+              <li>
+                <Link to="/Pomodoro" className="hover:underline">
+                  Pomodoro Timer
+                </Link>
+              </li>
+              <li>
+                <Link to="/water" className="hover:underline">
+                  Water Reminder
+                </Link>
               </li>
             </ul>
           </nav>
