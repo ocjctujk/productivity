@@ -9,14 +9,13 @@ function Layout() {
     <div className="min-h-screen flex flex-col bg-gray-100 text-gray-900">
       <header className="bg-blue-600 text-white py-4 shadow-md">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-semibold">{title}</h1>
+          <h1 className="text-2xl font-semibold">
+            <Link to="/" >
+              {title}
+            </Link>
+          </h1>
           <nav>
             <ul className="flex space-x-4">
-              <li>
-                <Link to="/" className="hover:underline">
-                  Home
-                </Link>
-              </li>
               <li>
                 <Link to="/Todo" className="hover:underline">
                   To Do
